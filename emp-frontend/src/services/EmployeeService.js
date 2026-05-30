@@ -1,9 +1,9 @@
 import axios from "axios"
-const REST_API_GET_URL ='https://your-render-url.onrender.com/api/getallEmployees';
-const REST_API_POST_URL='https://your-render-url.onrender.com/api/addEmployee';
-const REST_API_GETSINGLE_URL ='https://your-render-url.onrender.com/api/getEmployee';
-const REST_API_PUT_URL='https://your-render-url.onrender.com/api/updateEmployee';
-const REST_API_DELETE_URL='https://your-render-url.onrender.com/api/deleteemployee';
+const REST_API_GET_URL =' https://ems-backend-application-1.onrender.com/api/getallEmployees';
+const REST_API_POST_URL=' https://ems-backend-application-1.onrender.com/api/addEmployee';
+const REST_API_GETSINGLE_URL =' https://ems-backend-application-1.onrender.com/api/getEmployee';
+const REST_API_PUT_URL=' https://ems-backend-application-1.onrender.com/api/updateEmployee';
+const REST_API_DELETE_URL=' https://ems-backend-application-1.onrender.com/api/deleteemployee';
 
 export const listemployees=()=>axios.get(REST_API_GET_URL);
 export const createemployee=(employee)=>axios.post(REST_API_POST_URL,employee);
